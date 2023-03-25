@@ -8,31 +8,50 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What is the difference between a parameter and an argument?
 
-Your answer:
+Your answer: 
+The difference between a parameter and and an argument is that a parameter has no value. It will output all data unless you add in something specific that shows the data that you are referencing or what you want to be shown or evaluated in your entire code. An argument is essentially information or value that a built-in-method needs in order to run your code the way that you want it to. An argument gets passed in parentheses after the built-in method and is specific to that method and specific to the actual data that you want to be evaluated in the function. A parameter is just a placeholder for the data that gets passed into the actual function in parentheses and can take in a mix of data types as long as Javascript recognizes it.  
+
+For example: if you have a variable named myName = "Evelyn" and want to return only the value of "n" in the index, and you did the following:
+<!-- var myName = "Evelyn" -->
+<!-- console.log(myName.charAt()) // output: "E" --- will return the first letter because it has no argument or value in the parameter, no data is entered between the parentheses after the .charAt() buit-in method. -->
+
+However, in order to take a specific value of "n" in the index of the name "Evelyn", you would do the following:
+<!-- console.log(myName.charAt(5)) // output: "n" --- because using the .charAt() built-in method will return the value at a specific index, an argument or value (which in this case is an index location) has been entered between the parentheses. -->
 
 Researched answer:
+A parameter can be named anything, belongs to a function and is a variable. It holds the data in the function.
+
+An argument cannot be named just anything, it is actual data. It belongs to a built-in method and is additional information that uses the value of a function to set a condition that gets passed into a set of parentheses after the method name to perform the action that is intended.
 
 2. The JavaScript built in method .map() takes predefined parameters. What are they? Which are required and which are optional?
 
 Your answer:
+The predefined parameters of .map() are value, index and array. The value is the only one that is required in a function. Index and array are both optional parameters. 
 
 Researched answer:
 
 3. What is the difference between map and filter?
 
 Your answer:
+The difference between map and filter is that when using the map method, it will transfrom the values in an array while keeping the same length as the orignal array. So, map will check over or iterate over the elements in an array and return a new array but will stay the same length as the original. When using the filter method, it will filter out what we want and what we don't want based on the conditions we set. So, filter will look for whether something is true or false (boolean values) and whether a condition is met and returns a new array that is a portion of the original array. The filter method also has a built-in "if" statement so we don't have to list out everything that we want to show is true or false because the method will automatically do it for us. 
 
 Researched answer:
+Both .map() and .filter() have three built-in parameters - value, index, array - that a function is called on.
 
-1. What is iteration?
+Parameters will always be the same order. Higher-order functions have to pass thru at least one argument or value but can have up to two or three arguments.
 
-Your answer:
+4. What is iteration?
+
+Your answer: 
+Iteration is a repetitive process. It will check for the conditions you set for each value in an array of objects and keeps repeating the process until the conditions have been met. 
 
 Researched answer:
+Iteration is a set of instructions that are executed over and over until a condition is met. We can perform iteration on arrays and strings. 
 
-1. What is the difference between a function and a method?
+5. What is the difference between a function and a method?
 
 Your answer:
+A function is a set of codes that returns some sort of data. A method has two categories which will either modify the function it is called on (mutator) or not modify it(accessor). 
 
 Researched answer:
 
