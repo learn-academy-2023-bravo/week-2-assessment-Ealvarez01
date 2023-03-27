@@ -29,6 +29,7 @@ Your answer:
 The predefined parameters of .map() are value, index and array. The value is the only one that is required in a function. Index and array are both optional parameters. 
 
 Researched answer:
+Predefined parameters of .map() are value, index and array. The value parameter is required and the index and array parameters are optional. 
 
 3. What is the difference between map and filter?
 
@@ -37,7 +38,6 @@ The difference between map and filter is that when using the map method, it will
 
 Researched answer:
 Both .map() and .filter() have three built-in parameters - value, index, array - that a function is called on.
-
 Parameters will always be the same order. Higher-order functions have to pass thru at least one argument or value but can have up to two or three arguments.
 
 4. What is iteration?
@@ -54,23 +54,31 @@ Your answer:
 A function is a set of codes that returns some sort of data. A method has two categories which will either modify the function it is called on (mutator) or not modify it(accessor). 
 
 Researched answer:
+A Function is a reusable piece of code that returns an output when called on. It is a set of instructions that give you details on how to do a task or gives control over when an action happens. A method can help us to access and modify the content in a function to add information to be passed into parentheses as an argument. The output will be slightly different each time you use a method. 
 
 6. STRETCH: What is hoisting in JavaScript?
 
-Your answer:
+Your answer: 
+JavaScript only hoist variables. Hoisting is a behavior that  moves declarations to the top of a function.
 
 Researched answer:
+Hoisting is a behavior in JavaScript. A variable can be declared after it has been used. - w3schools.com
 
 ## Looking Ahead: Terms for Next Week
 
 Research and define the following terms to the best of your ability.
 
-1. Component:
+1. Component: 
+React components use the PascalCase naming convention. Components are broken down into two categories: logic and display.
 
-2. Spread operator:
+2. Spread operator: 
+A spread operator allows a dynamic number of arguments to be passed and expanded on in a function. 
 
-3. React state:
+3. React state: 
+React state is a variable that stores data that determines how a component will behave with the user interface. We can track and update data in components.
 
-4. React props:
+4. React props: 
+React properties uses objects to pass information from one component to another component. React props cannot be changed, they are "read-only". 
 
-5. DOM events:
+5. DOM events: 
+DOM events give a visual of the html elements. It organizes the html elements into a tree-like structure. DOM interacts with a user, mouse or keyboard. 

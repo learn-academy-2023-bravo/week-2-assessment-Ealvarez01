@@ -79,4 +79,4 @@ console.log(learnStudent)
 
 // a) Your answer: George
 // b) Verify and explain: //Output: Learn { student: 'George', cohort: 'Bravo', year: 2023 }
-  //This is a Class function. I thought that this would only log the key for the student "George" because it does not list the other keys' values - the string or year - inside the parameter of the method (constructor). However, after reviewing the LEARN syllabus, using the .this key is a keyword that independently refers to the object that it belongs to and can be included indiviually passed into the Class function and will return the same desired output. 
+  //This is a Class function. I thought that this would only log the key for the student "George" because it does not list the other keys' values - the string or year - inside the parameter of the method (constructor). However, after reviewing the LEARN syllabus, using the .this key is a keyword that independently refers to the object that it belongs to and can be included indiviually passed into the Class function and will return the same desired output.
